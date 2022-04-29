@@ -701,6 +701,12 @@ footer a {
     font-weight: 300;
     letter-spacing: -3px;
 }
+#section1 article #submenu ul li:first-child{
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -3px;
+    top: 0;
+}
 #section1 article #submenu ul li>a>b{
     letter-spacing: -2px;
 }
