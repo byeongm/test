@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>쿠아플레이</title>
+    <meta name="author" content="Matthew Howell" />
+    <meta name="description" content="fullPage continuous scrolling demo." />
+    <meta name="keywords" content="fullpage,jquery,demo,scroll,loop,continuous" />
+    <meta name="Resource-type" content="Document" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/vendors/scrolloverflow.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- 헤더 -->
+        <header>
+            <div id="header">
+                <a href="index.html">
+                    <img src="image/main_logo_s2.png" id="main_logo" alt="logo">
+                </a>
+                <nav>
+                    <ul id="main_menu">
+                        <li><a href="about-us.html">쿠아버스 소개</a></li>
+                        <li><a href="metaverse contents.html">콘텐츠</a></li>
+                        <li><a href="community-notice.html">게시판</a></li>
+                        <li id="download"><a href="#">다운로드</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="header_bg"></div>
+        </header>
+
+        <!-- 서브메뉴 -->
+        <aside>
+            <ul id="submenu">
+                <li data-menuanchor="firstPage" class="active" id="menu1">
+                    <a href="#firstPage"></a>
+                </li>
+                <li data-menuanchor="secondPage" class="" id="menu2">
+                    <a href="#secondPage"></a>
+                </li>
+                <li data-menuanchor="3rdPage" class="" id="menu3">
+                    <a href="#3rdPage"></a>
+                </li>
+                <li data-menuanchor="4thpage" class="" id="menu4">
+                    <a href="#4thpage"></a>
+                </li>
+                <li data-menuanchor="5thpage" class="" id="menu5">
+                    <a href="#5thpage"></a>
+                </li>
+                <li data-menuanchor="6thpage" class="" id="menu6">
+                    <a href="#6thpage"></a>
+                </li>
+                <li data-menuanchor="7thpage" class="" id="menu7">
+                    <a href="#7thpage"></a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- 본문 -->
+        <div id="fullpage">
+            <section class="section" id="section1">
+                <article>
+                    <div id="background">
+                        <img src="image/bg-black4.png">
+                        <video src="image/video3.mp4" type="video/mp4" data-autoplay loop muted></video>
+                    </div>
+                    <div class="main_slogun">
+                        <h1>JOIN</h1>
+                        <h1>QUAPLAY</h1>
+                    </div>
+                    <div class="sub_slogun">
+                        <h3>나만의 아바타를 만들고</h3><br>
+                        <h3><b>교육</b>과 <b>게임</b>를 함께 즐겨보세요!</h3>
+                    </div>
+                </article>
+            </section>
+
+
+            <section class="section" id="section2">
+                <article>
+                    <div id="background_color">
+                        <div class="main_slogun">
+                            <h1>ENJOY</h1><br>
+                            <h1>QUAPLAY</h1>
+                        </div>
+                        <div class="sub_slogun">
+                            <h3>나만의 아바타를 만들고</h3><br>
+                            <h3><b>교육</b>과 <b>놀이</b>를 한꺼번에 즐겨보세요!</h3>
+                        </div>
+                        <div id="section2_mockup">
+                            <img src="image/index_mockup1.png" alt="mockup1">
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+
+            <section class="section" id="section3">
+                <article>
+                    <div class="cover_box">
+                        <div class="img">
+                            <video src="image/index_mockup2-2.mp4" data-autoplay loop muted>
+                        </div>
+                        <div class="text">
+                            <div class="text_box">
+                                <div class="text_point"></div>
+                                <span>선생님이 내주시는 <b>해양생태계 과제</b></span><br><br>
+                                <p>학교 과제 알림부터 콘텐츠 소식까지<br>
+                                    쿠아플레이에서 확인하세요!</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+
+            <section class="section" id="section4">
+                <article>
+                    <img src="image/bg_effect.png" class="bg-effect be1">
+                    <div class="line"></div>
+                    <div class="cover_box">
+                        <div class="text">
+                            <div class="text_box">
+                                <div class="text_point"></div>
+                                <span><b>게임형태</b>의<b>과제</b>진행</span><br><br><br>
+                                <p>학생들의 흥미 유발을 위해 교육용 게임으로<br>
+                                    기존의 학습과제의 지루함을 극복!</p>
+                            </div>
+                        </div>
+                        <div class="img">
+                            <video src="image/index_mockup3-2.mp4" data-autoplay loop muted>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+
+            <section class="section" id="section5">
+                <article>
+                    <img src="image/bg_effect.png" class="bg-effect be2">
+                    <div class="cover_box">
+                        <div class="img">
+                            <video src="image/index_mockup4-2.mp4" data-autoplay loop muted>
+                        </div>
+                        <div class="text">
+                            <div class="text_box">
+                                <div class="text_point"></div>
+                                <span>포인트를 모아 꾸미는 <b>나만의 아바타</b></span><br><br>
+                                <p>출석체크, 과제진행을 통해서 포인트를 획득하고,<br>
+                                    자신만의 개성적인 아바타를 꾸며보세요!</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+
+            <section class="section" id="section6">
+                <article>
+                    <img src="image/bg_effect.png" class="bg-effect be3">
+                    <div class="cover_box">
+                        <div class="text">
+                            <div class="text_box">
+                                <div class="text_point"></div>
+                                <span>친구들과 <b>메타버스 세계</b>에서 소통</span><br><br><br>
+                                <p>지금 쿠아플레이를 다운 받고 메타버스 세계에서<br>
+                                    멋진 친구들을 만나보세요!</p>
+                            </div>
+                        </div>
+                        <div class="img">
+                            <video src="image/index_mockup5-2.mp4" data-autoplay loop muted >
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="section" id="section7">
+                <article>
+                    <div id="download_title">
+                        <h3>APP DOWNLOAD</h3>
+                        <p>쿠아플레이 교육용 커뮤니티를 설치하시고<br>
+                            쉽고 재미있게 배우세요!</p>
+                    </div>
+                    <div id="download_cover_box">
+                        <div id="mockup_box">
+                            <img src="image/index_mockup6.png">
+                            <img src="image/index_mockup7.png">
+                        </div>
+                        <div id="link_cover_box">
+                            <a href="#" class="link_button">
+                                <img src="image/google-play.png">
+                                <p>Download Android APK</p>
+                            </a>
+                            <a href="#" class="link_button">
+                                <img src="image/app-store.png">
+                                <p>Download Appstore APK</p>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="section fp-auto-height-responsive fp-auto-height" id="section8">
+                <article>
+                    <footer>
+                        <div id="footer_cover_box">
+                            <div id="footer_logo">
+                                <img src="image/main_logo_s2.png">
+                            </div>
+                            <div id="footer_text">
+                                <ul id="footer_top">
+                                    <li><a href="#">이용약관</a></li>
+                                    <li><a href="#">개인정보처리방침</a></li>
+                                    <li><a href="#">운영정책</a></li>
+                                    <li><a href="#">청소년보호정책</a></li>
+                                    <li><a href="#">사이트맵</a></li>
+                                </ul>
+                                <ul id="footer_bottom">
+                                    <li>
+                                        <p>Copyright © 2022 <b>QUATOPS</b> Corp. All Rights Reserved.</p>
+                                        <p>FAX. 043-233-5881</p>
+                                        <p>TEL. 043-233-5889</p>
+                                        <p>Email. quatops@naver.com</p>
+                                        <p>충청북도 청주시 흥덕구 가로수로 1251, 충북대학교 G-테크 벤처센터 304-1호</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="footer_family">
+                                <div id="family_site">
+                                    <p>Family Site</p>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <ul id="sns">
+                                    <li><a href="#"><i class="xi-google"></i></a></li>
+                                    <li><a href="#"><i class="xi-facebook"></i></a></li>
+                                    <li><a href="#"><i class="xi-instagram"></i></a></li>
+                                    <li><a href="#"><i class="xi-twitter"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </footer>
+                </article>
+            </section>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage', '6thpage', '7thpage', 'lastPage'],
+            menu: '#submenu',
+        });
+    </script>
+</body>
+
+</html>
