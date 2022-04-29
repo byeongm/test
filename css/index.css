@@ -726,7 +726,7 @@ aside #submenu li.active {
 
 
 
-@media (max-width: 480px) {
+@media screnn and (max-width: 480px) {
 
     /* ** */
     .bg-effect {
