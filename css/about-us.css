@@ -707,9 +707,9 @@ footer a {
 #section1 article #submenu ul li>div{
     height: 2px;
 }
-#section1 article #submenu ul li:first-child{
+<!--#section1 article #submenu ul li:first-child{
     top: -5px;
-}
+}-->
 /* section2 */
 
 #section2 article>.cover_box{
