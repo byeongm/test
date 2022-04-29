@@ -705,7 +705,7 @@ footer a {
     font-size: 18px;
     font-weight: 300;
     letter-spacing: -3px;
-    top: 0;
+    transform: translateY(-10px);
 }
 #section1 article #submenu ul li>a>b{
     letter-spacing: -2px;
