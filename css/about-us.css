@@ -782,7 +782,7 @@ footer a {
     float: left;
     display: flex;
     justify-content: center;
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 #section3 article .cover_box .img-cover_box>img{
     width: 70%;
@@ -822,7 +822,7 @@ footer a {
 
 /* section 4, 6 */
 #section4, #section6{
-    height: 600px;
+    height: 300px;
 }
 #section4>article, #section6>article{
     margin-top: 20vh;
@@ -845,6 +845,10 @@ footer a {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+#section4 article .sub_banner .sub_banner-black>p br,
+#section6 article .sub_banner .sub_banner-black>p br{
+    display: none;
 }
 
 /* section 5 */
