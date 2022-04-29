@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>쿠아플레이</title>
+    <link rel="stylesheet" href="css/community-news.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <!-- 헤더 -->
+    <header>
+        <div id="header">
+            <a href="index.html">
+                <img src="image/main_logo_s2.png" id="main_logo" alt="logo">
+            </a>
+            <nav>
+                <ul id="main_menu">
+                    <li><a href="about-us.html">쿠아버스 소개</a></li>
+                    <li><a href="metaverse contents.html">콘텐츠</a></li>
+                    <li><a href="community-notice.html">게시판</a></li>
+                    <li id="download"><a href="#">다운로드</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="header_bg"></div>
+    </header>
+
+    <!-- 본문 -->
+    <section id="section1">
+        <article>
+            <div id="submenu">
+                <h3>게시판</h3>
+                <ul>
+                    <li><a href="community-notice.html">공지사항</a><div></div></li>
+                    <li class="on"><a href="community-news.html">뉴스보도</a><div></div></li>
+                    <li><a href="community-library.html">자료실</a><div></div></li>
+                    <li><a href="community-ask.html">문의하기</a><div></div></li>
+                    <li><a href="community-load.html">오시는 길</a><div></div></li>
+                </ul>
+            </div>
+            <!-- <div id="main_banner">
+                <div id="main_banner-black">
+                    <div id="main_banner-text_box">
+                        <p>수중 메타버스, 교육용 컨텐츠, 커뮤니티를 한번에 만날 수 있는 세상</p>
+                        <span>쿠아플레이는 <b>교육용 컨텐츠</b>와 <b>커뮤니티의 통합 플랫폼</b>으로<br>
+                            <b>메타버스 세상</b>의 혁신을 주도해나갑니다.</span>
+                    </div>
+                </div>
+            </div> -->
+        </article>
+    </section>
+
+    <div id="title">
+        <span>쿠아플레이 뉴스보도</span>
+        <div id="search">
+            <input id="search-text" type="text" placeholder="검색어입력"  onfocus="this.placeholder=''">
+            <i class="xi-search"></i>
+            <div></div>
+        </div>
+    </div>
+
+    <div id="board-box">
+        <ul id="board-top">
+            <li>
+                <a href="#">
+                    <div class="news-imgbox"></div>
+                    <div class="category"><p>뉴스보도</p></div>
+                    <div class="textbox">
+                        <span>충북경제자유구역청 개청 9주년 기념식 개최</span>
+                        <p>충북경제자유구역청(청장 맹경재)은 25일(월) 오전 11시 오송C&V센터에서 충북경제자유구역청 개청 9주년 기념식을 개최했다.</p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <div class="news-imgbox"></div>
+                    <div class="category"><p>뉴스보도</p></div>
+                    <div class="textbox">
+                        <span>국회, 한마음으로 “2027 U대회 충청권 유치 도전”응원</span>
+                        <p>(사)2027하계유니버시아드대회 충청권공동유치위원회는 4월 25일 국회에서 충청권과 문화체육관광위원회 국회의원실(44개소)을 대상으로 2027 하계 세계대학경기대회(유니버시아드대회) 유치 응원 판넬을 부착하는 홍보활동을 펼쳤다.</p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <div class="news-imgbox"></div>
+                    <div class="category"><p>뉴스보도</p></div>
+                    <div class="textbox">
+                        <span>보도자료 상세보기 - 작성부서, 담당부서, 전화번호, 제목, 내용, 파일, 제공
+                            충청북도 탄소중립이행책임관 한자리에 모여</span>
+                        <p>충북도는 2050 탄소중립의 견실한 이행을 위해 22일, 도-시·군 탄소중립이행책임관 회의를 비대면으로 개최했다.
+
+                            도와 시·군의 탄소중립이행책임관이 탄소중립기본법 시행과 동시에 신속하게 지정됨에 따라 개최된 이번 회의는, 탄소중립 관련 법정 업무와 그 간 추진상황 등을 공유했다.</p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <div class="news-imgbox"></div>
+                    <div class="category"><p>뉴스보도</p></div>
+                    <div class="textbox">
+                        <span>충북도, 방역 긴장감 유지하면서 일상회복 추진!</span>
+                        <p>충북도는 4월 25일(월) 도청 영상회의실에서 서승우 행정부지사 주재로 「포스트 코로나19 방역대응 점검 상황판단회의」를 개최하고, 사회적 거리두기 해제로 인한 방역 긴장감 이완과 방역누수 발생을 차단하고 일상회복이 안착하기까지 도정 역량을 결집하기로 했다.</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+
+
+        <ul id="board-bottom">
+            <li>
+                <a href="#">
+                    <div class="news-imgbox"></div>
+                    <div class="category"><p>뉴스보도</p></div>
+                    <div class="textbox">
+                        <span>충북대학교 의사소통센터, CBNU 에세이 대회 개최</span>
+                        <p>[한국강사신문 장한별 기자] 충북대학교(총장 김수갑)는 교양교육본부 의사소통센터가 오는 5월 2일(월)부터 한 달간 충북대학교 학부생을 대상으로 ‘제15회 CBNU 에세이대회’를 개최한다고 22일 밝혔다.</p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <div class="news-imgbox"></div>
+                    <div class="category"><p>뉴스보도</p></div>
+                    <div class="textbox">
+                        <span>서원대, 통일부 ‘충북통일교육센터’ 주관기관 선정</span>
+                        <p>[한국대학신문 이원지 기자] 서원대학교(총장 손석민)는 통일부가 주관한 ‘2022 지역통일교육센터 공모사업’에 선정됐다고 25일 전했다.</p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <div class="news-imgbox"></div>
+                    <div class="category"><p>뉴스보도</p></div>
+                    <div class="textbox">
+                        <span>아이티센그룹-충북대, 프로그래밍·클라우드 인력 양성 협력</span>
+                        <p>[테크월드뉴스=조명의 기자] 아이티센그룹이 충북대학교와 지역의 전문·융합 인재를 양성하고 기업, 학생의 수요를 충족시킬 수 있는 산학협력 활성화를 위해 손을 맞잡았다.</p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <div class="news-imgbox"></div>
+                    <div class="category"><p>뉴스보도</p></div>
+                    <div class="textbox">
+                        <span>충북대 창업보육센터 경영평가 3년 연속 S등급</span>
+                        <p>(충북뉴스 청주=안영록 기자) 충북대학교는 창업보육센터가 중소벤처기업부의 경영평가에서 S등급을 받았다고 18일 밝혔다. 3년 연속 최고등급 획득이다.</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+
+        <ul id="page">
+            <li><a href="#"><i class="xi-angle-left"></i></a></li>
+            <li class="on"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#"><i class="xi-angle-right"></i></a></li>
+        </ul>
+    </div>
+
+
+    <section id="section8">
+        <article>
+            <footer>
+                <div id="footer_cover_box">
+                    <div id="footer_logo">
+                        <img src="image/main_logo_s2.png">
+                    </div>
+                    <div id="footer_text">
+                        <ul id="footer_top">
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">운영정책</a></li>
+                            <li><a href="#">청소년보호정책</a></li>
+                            <li><a href="#">사이트맵</a></li>
+                        </ul>
+                        <ul id="footer_bottom">
+                            <li>
+                                <p>Copyright © 2022 <b>QUATOPS</b> Corp. All Rights Reserved.</p>
+                                <p>FAX. 043-233-5881</p>
+                                <p>TEL. 043-233-5889</p>
+                            </li>
+                            <li>
+                                <p>Email. quatops@naver.com</p>
+                                <p>충청북도 청주시 흥덕구 가로수로 1251, 충북대학교 G-테크 벤처센터 304-1호</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="footer_family">
+                        <div id="family_site">
+                            <p>Family Site</p>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <ul id="sns">
+                            <li><a href="#"><i class="xi-google"></i></a></li>
+                            <li><a href="#"><i class="xi-facebook"></i></a></li>
+                            <li><a href="#"><i class="xi-instagram"></i></a></li>
+                            <li><a href="#"><i class="xi-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </article>
+    </section>
+</body>
+</html>
