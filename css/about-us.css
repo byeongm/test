@@ -135,6 +135,7 @@ article{
 }
 #section1 article #submenu ul>li:first-child{
     left: 0%;
+    top: -10px;
 }
 #section1 article #submenu ul>li:nth-child(2){
     left: 50%;
